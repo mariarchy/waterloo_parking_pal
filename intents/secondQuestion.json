@@ -1,0 +1,53 @@
+{
+  "id": "4b8cab6d-6805-4ef2-88ae-d87cbf861d15",
+  "name": "secondQuestion",
+  "auto": true,
+  "contexts": [
+    "secondQuestion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "thirdQuestion",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "51ef691c-91d1-40c5-abf7-56a6700b3f7e",
+          "required": true,
+          "dataType": "@Agreement",
+          "name": "Agreement",
+          "value": "$Agreement",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, I asked - Are you obstructing a sidewalk?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Nice try, you can\u0027t park there! See you later, and remember - always park safe!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537079784,
+  "fallbackIntent": false,
+  "events": []
+}

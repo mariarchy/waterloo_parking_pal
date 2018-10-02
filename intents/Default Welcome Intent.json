@@ -1,0 +1,50 @@
+{
+  "id": "3589ba3f-822b-4bd9-bfc2-fc2400ce67ec",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "firstQuestion",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 14,
+          "platform": "telephony",
+          "lang": "en",
+          "text": "Hey, my names Ella! How can I help you?"
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "welcome text response"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": false
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537078625,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    },
+    {
+      "name": "TELEPHONY_WELCOME"
+    }
+  ]
+}

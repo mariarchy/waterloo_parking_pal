@@ -1,0 +1,73 @@
+{
+  "id": "2d0f3c91-8ac7-435c-be4b-89400acd2dd4",
+  "name": "fourthQuestion",
+  "auto": true,
+  "contexts": [
+    "fourthQuestion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fifthQuestion",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "firstQuestion",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "secondQuestion",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "thirdQuestion",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "fourthQuestion",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a64fd94f-0ba4-4fd7-97cf-02c19c4fbc43",
+          "required": true,
+          "dataType": "@Agreement",
+          "name": "Agreement",
+          "value": "$Agreement",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, I asked - Are you parked within 9m of an intersection?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, you can\u0027t park there! See you later, and remember - always park safe!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537082095,
+  "fallbackIntent": false,
+  "events": []
+}

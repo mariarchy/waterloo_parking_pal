@@ -1,0 +1,47 @@
+{
+  "id": "e7deeea4-a88f-4c8a-b6d5-ac78309ee4c5",
+  "name": "sixthQuestion",
+  "auto": true,
+  "contexts": [
+    "sixthQuestion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f7795267-3ccf-45a8-96b6-22c904a695f7",
+          "required": true,
+          "dataType": "@Agreement",
+          "name": "Agreement",
+          "value": "$Agreement",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I\u0027ll repeat that -"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Too bad, you can\u0027t park here between those hours without registering your vehicle at the city of Waterloo website! Bye for now, and remember - always park safe!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537083072,
+  "fallbackIntent": false,
+  "events": []
+}

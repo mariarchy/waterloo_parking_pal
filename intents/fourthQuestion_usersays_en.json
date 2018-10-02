@@ -1,0 +1,16 @@
+[
+  {
+    "id": "06ccccee-1ef4-4658-be68-5cf5f558c2e4",
+    "data": [
+      {
+        "text": "Yes",
+        "alias": "Agreement",
+        "meta": "@Agreement",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1537079534
+  }
+]

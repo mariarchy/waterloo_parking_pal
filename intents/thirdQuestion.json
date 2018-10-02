@@ -1,0 +1,73 @@
+{
+  "id": "cdb4bbef-119b-41e1-b48d-002a9a7fd235",
+  "name": "thirdQuestion",
+  "auto": true,
+  "contexts": [
+    "thirdQuestion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "fourthQuestion",
+          "parameters": {},
+          "lifespan": 3
+        },
+        {
+          "name": "thirdQuestion",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "firstQuestion",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "secondQuestion",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "fifthQuestion",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ccaada4a-f350-4f33-a013-5a9f9a36a287",
+          "required": true,
+          "dataType": "@Agreement",
+          "name": "Agreement",
+          "value": "$Agreement",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Let me repeat that - Are you parked within 5m of a driveway?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "My apologies, you can\u0027t park there! Catch you next time, and remember - always park safe!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telephony": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537082071,
+  "fallbackIntent": false,
+  "events": []
+}

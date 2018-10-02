@@ -1,0 +1,51 @@
+{
+  "id": "7d1fb744-04f9-4fb0-92fc-9fa569fe6cb0",
+  "name": "firstQuestion",
+  "auto": true,
+  "contexts": [
+    "firstQuestion"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "secondQuestion",
+          "parameters": {},
+          "lifespan": 3
+        }
+      ],
+      "parameters": [
+        {
+          "id": "06284cdf-ca41-4ef3-b396-989a2219e185",
+          "required": true,
+          "dataType": "@Agreement",
+          "name": "Agreement",
+          "value": "$Agreement",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Let me repeat that - I can help you park safely and legally in Waterloo. Would you like to begin?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Sorry, you can\u0027t park there! See you later, and remember - always park safe!"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1537078965,
+  "fallbackIntent": false,
+  "events": []
+}

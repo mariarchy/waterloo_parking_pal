@@ -1,0 +1,52 @@
+[
+  {
+    "value": "Yes",
+    "synonyms": [
+      "Yes",
+      "Yeah",
+      "Yup",
+      "Sure",
+      "Alright",
+      "Ok",
+      "Okay",
+      "sure thing",
+      "yes please",
+      "sure thanks",
+      "alrighty",
+      "please",
+      "continue",
+      "i consent",
+      "sounds fine",
+      "sounds good",
+      "sounds great",
+      "fine"
+    ]
+  },
+  {
+    "value": "No",
+    "synonyms": [
+      "No",
+      "Nope",
+      "Nah",
+      "no thanks",
+      "no thank you",
+      "nevermind",
+      "stop it",
+      "stop",
+      "enough",
+      "no way",
+      "i\u0027m fine",
+      "i\u0027m alright",
+      "that\u0027s fine",
+      "i do not",
+      "i don\u0027t",
+      "no more",
+      "not now",
+      "not right now",
+      "maybe later",
+      "maybe another time",
+      "i changed my mind",
+      "get out"
+    ]
+  }
+]
